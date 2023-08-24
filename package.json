@@ -1,0 +1,43 @@
+{
+  "name": "scroll-view-react",
+  "version": "1.0.0",
+  "description": "A scroll view built with react",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "vite build"
+  },
+  "keywords": [
+    "react",
+    "ScrollView",
+    "component"
+  ],
+  "author": "codersjj",
+  "license": "MIT",
+  "homepage": "https://github.com/codersjj/scroll-view-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codersjj/scroll-view-react"
+  },
+  "bugs": {
+    "url": "https://github.com/codersjj/scroll-view-react"
+  },
+  "devDependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "styled-components": "^6.0.7",
+    "vite": "^4.4.9"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "styled-components": ">= 5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}

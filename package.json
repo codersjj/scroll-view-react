@@ -1,6 +1,6 @@
 {
   "name": "scroll-view-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A scroll view built with react",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",

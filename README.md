@@ -16,11 +16,11 @@ import ScrollView from 'scroll-view-react'
 
 import ProductItem from './ProductItem.jsx'
 
-const MySection = memo(({ data }) => {
+const MySection = memo(({ data = {} }) => {
   const { list = [{id: 1},{id: 2},{id: 3},{id: 4},{id: 5},{id: 6},{id: 7}] } = data
 
   return (
-    <div className='list' style={{ margin: '0 -8px' }}>
+    <div className='list'>
       <ScrollView>
         {
           list.map((item) => {
@@ -77,11 +77,11 @@ export default ProductItem
 ```css
 /* style.css */
 .list .control.left {
-  transform: translate(calc(-50% + 8px), -50%);
+  transform: translate(calc(-50% + 8px), -50%) !important;
 }
 
 .list .control.right {
-  transform: translate(calc(50% - 8px), -50%);
+  transform: translate(calc(50% - 8px), -50%) !important;
 }
 ```
 
